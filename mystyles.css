@@ -1,0 +1,66 @@
+canvas {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu {
+    position: absolute;
+    z-index: 1;
+    background-color: #f0f0f0;
+    border: 4px solid rgb(188, 188, 188);
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.menu-left {
+    bottom: 50%;
+    transform: translateY(50%);
+    left: 10px;
+}
+
+.menu-right {
+    bottom: 50%;
+    transform: translateY(50%);
+    right: 10px;
+}
+
+.menu-top {
+    right: 50%;
+    transform: translateX(50%);
+    top: 10px;
+}
+
+.menu-top h3{
+    margin: 5px;
+    text-align: center;
+}
+
+.menu-bottom {
+    right: 50%;
+    transform: translateX(50%);
+    bottom: 10px;
+}
+
+.panel button {
+    display: block;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.panelHorizontal button {
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.panelHorizontal {
+    display: inline-block;
+}
